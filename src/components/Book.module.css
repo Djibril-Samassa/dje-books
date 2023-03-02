@@ -6,8 +6,8 @@
     margin: 2em;
     background-size: cover;
     background-position: center;
-    width: 10vw;
-    height: 35vh;
+    width: 15vw;
+    height: 45vh;
     transform: scale(1);
 }
 
@@ -27,8 +27,8 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 10vw;
-    height: 35vh;
+    width: 15vw;
+    height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
