@@ -1,38 +1,62 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/Poppins/Poppins-Regular.ttf");
+}
+
+* {
+  font-family: 'Poppins';
+  margin: 0px;
+  padding: 0px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
+  text-align: center;
+  background-color: #89CFF0;
+}
+
+.booksContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top {
+  padding: 3em;
+}
+
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.query {
+  width: fit-content;
+  border-radius: 5px;
+  padding: 5px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.query:focus {
+  outline: none;
+  border: 2px solid #003060;
+}
+
+.btn {
+  cursor: pointer;
+  width: fit-content;
+  margin: 0px auto;
+  background-color: #f1f1f1;
+  color: #003060;
+  margin: 10px 0;
+  padding: 9px 15px;
+  border-radius: 10px;
+  transform: scale(1);
+  transition-duration: 300ms;
+}
+
+.btn:hover {
+  background-color: #003060;
+  color: #f1f1f1;
 }
