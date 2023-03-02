@@ -87,8 +87,7 @@ form {
 
 .close:hover {
   cursor: pointer;
-  position: absolute;
-  bottom: 2em;
+  margin: 2em;
   color: #f1f1f1;
   padding: 9px 15px;
   border-radius: 5px;
